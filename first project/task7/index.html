@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task</title>
 </head>
 <body>
     <form action="" method="post">
-    <label for="">token</label>
-    <input type="token" value="bgfgdfsdrsr hidden">
+        <div >
+            <label for="">token</label>
+            <input type="hidden" value="bgfgdfsdrsr">
+        </div>
     <hr>
-    <label for="">usernam</label>
-    <input type="usernam" minlength="5" maxlength="20" checked>
+    <label for="username">username</label>
+    <input type="text" required name="username" minlength="5" maxlength="20" autofocus>
+    <hr>    
     <hr>
     <label for="">email</label>
     <input type="email" value="s@.ss" disabled>
@@ -19,28 +22,36 @@
     <input type="submit" value="empty">
     <input type="submit" value="send">
     <br>
+
+    <div>
+        <input type="checkbox" id="problem">
+        <label for="chek">problem solving</label>
+        <br>
+        <input type="checkbox" id="problem">
+        <label for="chek">Logical Thinking</label>
+    </div>
     
-    <input type="checkbox" id="problem">
-    <label for="chek">problem solving</label>
     <br>
-    <input type="checkbox" name="logic" id="logic">
-    <label for="logic">logic</label>
-    <br>
-    <input type="checkbox" id="advanced">
-    <label for="ad">advanced</label>
-    <br>
-    <input type="radio" id="front">
+    <!-- radio button -->
+    <div>
+        <input type="radio" required name="job"> Scrum Master<br>
+        <input type="radio" value="female" name="job">Project Manager<br>
+        <input type="radio" value="female" name="job">Business Analyst<br>
+        <input type="radio" value="female" name="job">Back-End Developer<br>
+        <input type="radio" value="" name="job">Front-End Developer<br>
+    </div>
+    <!-- <input type="radio" id="front">
     <label for="">front</label>
     <br>
     <input type="radio" id="back">
     <label for="">back</label>
     <br>
     <input type="radio" id="bussins">
-    <label for="">bussins</label>
+    <label for="">bussins</label> -->
     <br>
     
-   <label for="checkbox">checked:</label>
-    <select name="skill" id="skill" multiple>
+   <label for="skill">Choose Book:</label>
+    <select name="skill" id="skill">
         <optgroup label="skill">
             <option value="3" selected>text</option>
             <option value="2">caption</option>
@@ -48,12 +59,11 @@
                 <option value="1">ghgv</option>
                 <option value="2">kjkj</option>
             </optgroup>
-        </optgroup>
     </select>
     <hr>
     <textarea name="checked" id="" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
-      
-
+      <input type="submit" value="click me">
+    <!-- <button type="submit">click me</button> -->
     </form>
 </body>
 </html>
