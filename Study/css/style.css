@@ -1,0 +1,33 @@
+p {
+    color:gray ; 
+    font-size:large ;
+}
+.om {
+    color: blue;
+    font-size:large ;
+}
+#mugf {
+    color: aqua;
+    font-size: large;
+}
+div {
+    background-color: blue;
+    /* color nam */
+    background-color: rgb(0 0 0 /50%); 
+    /* red green blue alpha channel */
+    background-color: #00ff00; 
+    /* color hex code */ 
+    background-image:url(../css/masterd.css);
+    background-repeat:repeat;
+    /* repeat x.y no repeat */
+    background-attachment: fixed;
+    background-position: left;
+     /* right top center bottom center.top
+     20pex 50% */
+     background-size: cover;
+     /* contain 200pex  */
+     padding: 10; 
+     /* top right bottom left */
+     margin: 10px;
+     /* nigtev value width margin-left margin-auto */
+}
