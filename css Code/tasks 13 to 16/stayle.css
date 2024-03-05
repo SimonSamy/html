@@ -1,0 +1,21 @@
+p,
+div.title
+{
+    background-color: green;
+}
+div .child{
+    background-color: blue;
+}
+span.title{
+    background-color: red;
+}
+
+.one,
+.two,
+.three,
+.four{
+    background-color: rgba(180, 13, 13, 0.815);
+    color: aliceblue;
+    max-width:400px ;
+     display: inline-block; 
+}
